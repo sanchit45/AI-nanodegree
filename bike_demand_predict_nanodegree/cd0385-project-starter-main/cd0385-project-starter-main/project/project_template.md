@@ -38,13 +38,13 @@ If given time , i would spend more time in training model with autogluon since i
 
 
 
-![model_train_score.png](cd0385-project-starter/project/model_train_score.png)
+![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 
 
-![model_test_score.png](cd0385-project-starter/project/model_test_score.png)
+![model_test_score.png](model_test_score.png)
 
 ## Summary
 In this project data from bike share demand competition was used to predict demand of bike containing features such as temperature, humidity, datetime, windspeed etc .I did exploratory data analysis on data and observed histogram of features distribution with respect to data and make additional features like hours,day,month from datetime feature. One model was trained with default parameters ,second was with additional features and third was hyperparameter optimised with a kaggle score of 1.79171,0.65651 and 0.73156 as depicted by second graph. As we can see in first graph model with hyperparameters optimized had highest performance for score but still medium kaggle score which i believe is due to overfitting.
